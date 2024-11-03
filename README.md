@@ -1,5 +1,3 @@
-Here’s an expanded **README.md** for your **HTA-Gallery** project:
-
 ---
 
 # HTA-Gallery
