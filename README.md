@@ -114,6 +114,11 @@ To conceal files within media files, follow these instructions:
 
    - The “Choose a File” option automates the embedding command directly in HTA-Gallery, providing users with an intuitive way to hide files within media.
 
+## Other Plans
+
+### 1. API to get files and load them in other websites
+### 2. The API For the private files needs to have the uuid v5 as a key to gain access
+
 --- 
 
 ## With these additions, HTA-Gallery now includes flexible file management features that offer users greater control over file retention and deletion settings.
