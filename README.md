@@ -116,8 +116,8 @@ To conceal files within media files, follow these instructions:
 
 ## Other Plans
 
-### 1. API to get files and load them in other websites
-### 2. The API For the private files needs to have the uuid v5 as a key to gain access
+   - 1. API to get files and load them in other websites
+     2. The API For the private files needs to have the uuid v5 as a key to gain access
 
 --- 
 
