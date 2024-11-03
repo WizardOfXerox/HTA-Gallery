@@ -121,8 +121,6 @@ To conceal files within media files, follow these instructions:
 
 --- 
 
-## With these additions, HTA-Gallery now includes flexible file management features that offer users greater control over file retention and deletion settings.
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
