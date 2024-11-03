@@ -51,6 +51,73 @@ To conceal files within media files, follow these instructions:
 - **Compatibility**: Media files with embedded content still function normally, but hidden files may require specific extraction tools (e.g., WinRAR, 7-Zip).
 - **Windows-Only**: HTA-Gallery is designed exclusively for Windows, as HTA applications are not compatible with other operating systems.
 
+---
+
+## Project Structure and Features
+
+### 1. **Dual Interface: Public and Private Files**
+
+   - **Public Interface**:
+     - Files in the public interface are openly viewable by all users who access the HTA-Gallery application.
+     - Users can see, interact with, and download public images, GIFs, and videos.
+     - Includes a timer showing days remaining before deletion.
+     - Media files in this section are stored temporarily, subject to the 30-day deletion policy.
+
+   - **Private Interface**:
+     - Accessible only through UUID v5 ID authentication.
+     - Files are only viewable or downloadable by entering the unique ID.
+     - This setup ensures an extra layer of security for sharing sensitive files, limiting access to those who have the unique ID.
+
+### 2. **File Expiration and Deletion Management**
+
+   - **30-Day Deletion Limit with Customizable Deletion Date**:
+     - Users can set a custom deletion date within the 30-day maximum limit.
+     - The system will allow users to select a specific date (e.g., 10, 15, or 25 days from the upload date).
+     - Once set, users cannot change the deletion date to prevent unintended file retention.
+
+   - **Potential Subscription Option (Future Consideration)**:
+     - Optional feature to extend file storage time beyond the 30-day limit for subscribers.
+     - Subscribers could have options for file retention up to 60 days or longer, based on chosen plans.
+     - This feature is only conceptual for now but could be implemented if long-term file storage becomes a demand.
+
+### 3. **Integrated File Concealment with CMD**
+
+   - **Embed Files within Media**:
+     - The HTA-Gallery interface includes a “Choose a File” button that automates the CMD command (`copy /b image.jpg+folder.zip image.jpg`) to embed files within media files.
+     - This button allows users to generate hidden-content media files without needing external commands.
+      - **Diagram**
+        - Choose a File (Image, Video, Gif) -> Choose a File (Zip, Rar, Txt, etc...) -Optional-> (Choose another File) -Result-> input(Image-Name.extension)
+
+   - **User Flow**:
+     - Users select a media file and any additional file(s) to be embedded.
+     - HTA-Gallery runs the CMD command to create a new file that combines the files, concealing the added files.
+
+## Technical Components and Implementation
+
+### 1. **Interface Development (HTML/CSS/JavaScript)**
+
+   - **Deletion Date Selector**:
+     - Add a date picker allowing users to set their desired deletion date within the 30-day range.
+     - The selected date will be stored alongside each file’s metadata and used by the auto-deletion script.
+
+   - **HTA Interface Layout**:
+     - Add tabs or buttons for Public and Private sections, with input for UUID v5 in the Private section.
+     - Include the "Choose a File" button and drag-and-drop features.
+
+### 2. **File Storage and Deletion Management**
+
+   - **Automated Expiration Script**:
+     - Regularly check files against their custom deletion dates and delete them once they expire.
+     - The system will display the remaining time before deletion for each file, whether set to the 30-day limit or an earlier custom date.
+
+### 3. **Embedded Content Generator**
+
+   - The “Choose a File” option automates the embedding command directly in HTA-Gallery, providing users with an intuitive way to hide files within media.
+
+--- 
+
+## With these additions, HTA-Gallery now includes flexible file management features that offer users greater control over file retention and deletion settings.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
