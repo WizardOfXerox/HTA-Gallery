@@ -1,20 +1,29 @@
 [
   {
-    "id": "﴾W۞X﴿-SSX-1-0001",      /* optional stable id */
-    "name": "SecretSigil.png",
+    "id": "﴾W۞X﴿-SSX-TEST-0001",
+    "name": "Ethereal_Sigil.png",
     "author": "﴾W۞X﴿",
-    "date": "2025-10-31T14:00:00Z",
-    "url": "https://raw.githubusercontent.com/owner/repo/main/uploads/SecretSigil.png",
+    "date": "2025-11-01T03:00:00Z",
     "type": "image/png",
-    "expires": "2025-11-30T00:00:00Z",
-    "meta": { "hidden": true, "notes": "packed:v1" }
+    "base64": "iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAHElEQVQYGWP4z8AARMAEh1FEUApGoWgA5sgAIc4CAHrfFdw7pKtsAAAAAElFTkSuQmCC",
+    "description": "Founder's mark glowing with inner light."
   },
   {
-    "id": "﴾A۩X﴿-SSX-2-0005",
-    "name": "drop_video.mp4",
+    "id": "﴾A۩X﴿-SSX-TEST-0002",
+    "name": "Hidden_Rune.gif",
     "author": "﴾A۩X﴿",
-    "date": "2025-10-20T08:30:00Z",
-    "url": "https://raw.githubusercontent.com/owner/repo/main/uploads/drop_video.mp4",
-    "type": "video/mp4"
+    "date": "2025-11-01T03:05:00Z",
+    "type": "image/gif",
+    "base64": "R0lGODdhEAAQAMQfAF5eXkVFRXd3d2tra5OTk5ycnIeHh1dXV6ioqN3d3efn58zMzMHBwdbW1p6enpOTk2ZmZmpqaoyMjKioqJqamgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAB8ALAAAAAAQABAAAAWZ4CeOZGmeaKqubOu+cCzPdFhD4VxhKJpqYxADs=",
+    "description": "Animated rune from the archives."
+  },
+  {
+    "id": "﴾ΦΨ﴿-SSX-TEST-0003",
+    "name": "DarkEcho.mp4",
+    "author": "﴾ΦΨ﴿",
+    "date": "2025-11-01T03:10:00Z",
+    "type": "video/mp4",
+    "url": "https://raw.githubusercontent.com/yourusername/yourrepo/main/uploads/DarkEcho.mp4",
+    "description": "Short encrypted video sequence."
   }
 ]
