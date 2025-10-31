@@ -1,7 +1,20 @@
-﻿[
+[
   {
-    "name": "5099ade6-a941-4455-b5ef-3e0b4a827466.jpg",
-    "date": "2025-11-01 04:08",
-    "url": "https://raw.githubusercontent.com/WizardOfXerox/HTA-Gallery/main/uploads/5099ade6-a941-4455-b5ef-3e0b4a827466.jpg"
+    "id": "﴾W۞X﴿-SSX-1-0001",      /* optional stable id */
+    "name": "SecretSigil.png",
+    "author": "﴾W۞X﴿",
+    "date": "2025-10-31T14:00:00Z",
+    "url": "https://raw.githubusercontent.com/owner/repo/main/uploads/SecretSigil.png",
+    "type": "image/png",
+    "expires": "2025-11-30T00:00:00Z",
+    "meta": { "hidden": true, "notes": "packed:v1" }
+  },
+  {
+    "id": "﴾A۩X﴿-SSX-2-0005",
+    "name": "drop_video.mp4",
+    "author": "﴾A۩X﴿",
+    "date": "2025-10-20T08:30:00Z",
+    "url": "https://raw.githubusercontent.com/owner/repo/main/uploads/drop_video.mp4",
+    "type": "video/mp4"
   }
 ]
