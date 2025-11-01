@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": "﴾W۞X﴿-SSX-TEST-0001",
     "name": "Ethereal_Sigil.png",
@@ -25,5 +25,25 @@
     "type": "video/mp4",
     "url": "https://raw.githubusercontent.com/yourusername/yourrepo/main/uploads/DarkEcho.mp4",
     "description": "Short encrypted video sequence."
+  },
+  {
+    "name": "0222.mp4",
+    "url": "https://raw.githubusercontent.com/WizardOfXerox/HTA-Gallery/main/uploads/0222.mp4",
+    "date": "2025-11-01T00:18:31.104Z"
+  },
+  {
+    "name": "428610202_811094667702020_4379321861505743050_n.jpg",
+    "url": "https://raw.githubusercontent.com/WizardOfXerox/HTA-Gallery/main/uploads/428610202_811094667702020_4379321861505743050_n.jpg",
+    "date": "2025-11-01T00:18:32.824Z"
+  },
+  {
+    "name": "428621212_811094761035344_7021465456977747250_n.jpg",
+    "url": "https://raw.githubusercontent.com/WizardOfXerox/HTA-Gallery/main/uploads/428621212_811094761035344_7021465456977747250_n.jpg",
+    "date": "2025-11-01T00:18:35.125Z"
+  },
+  {
+    "name": "5099ade6-a941-4455-b5ef-3e0b4a827466.jpg",
+    "url": "https://raw.githubusercontent.com/WizardOfXerox/HTA-Gallery/main/uploads/5099ade6-a941-4455-b5ef-3e0b4a827466.jpg",
+    "date": "2025-11-01T00:18:37.951Z"
   }
 ]
